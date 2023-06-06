@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="LGPL-v2.1"
+
+[[mods]]
+modId="arrowcollector"
+version="${file.jarVersion}"
+displayName="ArrowCollector"
+authors="Team Potato"
+description='''
+
+'''
