@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "arrowcollector",
+  "version": "${version}",
+  "name": "ArrowCollector",
+  "description": "",
+  "authors": [
+    "TeamPotato"
+  ],
+  "contact": {
+    "homepage": "https://github.com/MCTeamPotato/ArrowCollector",
+    "sources": "https://github.com/MCTeamPotato/ArrowCollector/tree/1.19.2-fabric"
+  },
+  "license": "LGPL-v2.1",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.teampotato.arrowcollector.ArrowCollector"
+    ]
+  },
+  "mixins": [
+    "arrowcollector.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "minecraft": "*",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

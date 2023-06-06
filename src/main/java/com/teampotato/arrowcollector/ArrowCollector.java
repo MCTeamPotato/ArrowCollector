@@ -1,8 +1,8 @@
 package com.teampotato.arrowcollector;
 
-import net.minecraftforge.fml.common.Mod;
+import net.fabricmc.api.ModInitializer;
 
-@Mod(ArrowCollector.ID)
-public class ArrowCollector {
-    public static final String ID = "arrowcollector";
+public class ArrowCollector implements ModInitializer {
+	@Override
+	public void onInitialize() {}
 }
