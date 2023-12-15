@@ -1,13 +1,13 @@
 {
   "required": true,
-  "minVersion": "0.8",
   "package": "com.teampotato.arrowcollector.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "arrowcollector.refmap.json",
+  "mixins": [
+    "ItemBowMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   },
-  "mixins": [
-    "MixinBowItem"
-  ]
+  "refmap": "arrowcollector.refmap.json",
+  "minVersion": "0.8"
 }
